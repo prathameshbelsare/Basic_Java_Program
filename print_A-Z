@@ -1,0 +1,5 @@
+	// print A to Z
+		for(char i='A'; i<='Z'; i++) {
+		System.out.println(i);
+	     }
+	
