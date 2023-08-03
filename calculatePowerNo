@@ -1,0 +1,12 @@
+	//cal power of a no
+	    int a,b,result=1;
+	    System.out.println("enter no");
+		System.out.println("Enter power");
+		Scanner sc = new Scanner(System.in);
+		a=sc.nextInt();
+		b=sc.nextInt();
+		//System.out.println("Enter power");
+		for(int i=1; i<=b; i++) {
+		 result= a*result;
+		}
+		System.out.println("Power is "+result);
