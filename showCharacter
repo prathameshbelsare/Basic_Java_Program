@@ -1,0 +1,7 @@
+//print character in java
+		char ch;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("plz Enter Character ");
+		ch=sc.next().charAt(0);
+		System.out.println(ch);
+}
