@@ -1,0 +1,12 @@
+		//Add 2 no
+		int a=10, b=20;
+		System.out.println(a+b);
+		
+		//user input Add no
+		int x,y,z;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter no");
+	    x=sc.nextInt();
+		y=sc.nextInt();
+		z=x+y;
+		System.out.println(z);
