@@ -1,0 +1,9 @@
+//Even no between 1 to n
+		int a;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter no");
+		a=sc.nextInt();
+		for(int i=0; i<=a; i=i+2) {
+			System.out.println(i);
+		}
+		
