@@ -1,0 +1,8 @@
+	//natural number
+		int a;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter no");
+		a=sc.nextInt();
+		for(int i=1; i<=a; i++) {
+			System.out.println(i);
+		}
