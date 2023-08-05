@@ -1,0 +1,8 @@
+	//Area of Circle
+		final double PI = 3.14, area;
+		int r;
+		System.out.println("Enter radius of circle ");
+		Scanner sc = new Scanner(System.in);
+		r= sc.nextInt();
+		area = PI*r*r;      //formula
+		System.out.println("area of circle "+ area);
