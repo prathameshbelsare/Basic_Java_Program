@@ -1,0 +1,15 @@
+	//Palindrome no
+		int n, c, s=0, r;
+		System.out.println("Enter no ");
+		Scanner sc = new Scanner(System.in);
+		n=sc.nextInt();
+		c=n;
+		while(n>0) {
+			r=n%10;
+			n=n/10;
+			s=(s*10)+r;	
+		}if(c==s) {
+			System.out.println("palindrome No");
+		}else {
+			System.out.println("Not palindrome No");
+		}
