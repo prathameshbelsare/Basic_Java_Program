@@ -1,0 +1,5 @@
+	//special Char remove
+		
+		String str = "@!#@!#@#ssdf##@###$";
+		str=str.replaceAll("[^a-zA-Z0-9]", "");
+		System.out.println(str);
