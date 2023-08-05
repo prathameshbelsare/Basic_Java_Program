@@ -1,0 +1,8 @@
+	//	Area of Redius
+		final double PI= 3.14 ,area;
+		int r;
+		System.out.println("Enter no  ");
+		Scanner sc = new Scanner(System.in);
+		r=sc.nextInt();
+		area = PI*r;
+		System.out.println("Area of Redius "+area);
