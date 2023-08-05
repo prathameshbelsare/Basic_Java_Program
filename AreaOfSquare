@@ -1,0 +1,7 @@
+//Area Of Squre
+		int a , area;
+		System.out.println("Enter No ");
+		Scanner sc = new Scanner(System.in);
+		a=sc.nextInt();
+		area= a*a;
+		System.out.println("Area of Square "+area);
