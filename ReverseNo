@@ -1,0 +1,10 @@
+//reverse no
+		int n, rev;
+		System.out.println("Enter no ");
+		Scanner sc = new  Scanner(System.in);
+		n=sc.nextInt();
+		while(n>0) {
+			rev=n%10;
+			n=n/10;
+			System.out.print(rev);	
+		}
