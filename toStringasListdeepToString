@@ -1,0 +1,7 @@
+//toString() asList() deepToString()
+		
+		String a[] = {"Learn", "Coding", "Kyepoint", "Education"};
+		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.asList(a));
+		
+		System.out.println(Arrays.deepToString(a));
