@@ -1,0 +1,11 @@
+	// Simple Interest
+		int p,r,t,SI;
+		
+		System.out.println("Enter No ");
+		Scanner sc =  new Scanner(System.in);
+		t = sc.nextInt();
+		r=sc.nextInt();
+		p=sc.nextInt();
+		SI= p*r*t/100;    // formula
+		System.out.println(SI);
+		
