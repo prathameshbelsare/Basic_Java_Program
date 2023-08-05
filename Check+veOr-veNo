@@ -1,0 +1,13 @@
+//Check +ve or -ve
+		
+		int n;
+		System.out.println("Enter no ");
+		Scanner sc = new Scanner(System.in);
+		n= sc.nextInt();
+		if(n>0) {
+			System.out.println("+ve");	
+		}else if(n<0){
+			System.out.println("-ve");
+		}else {
+			System.out.println("Niether +ve or -ve no");
+		}
