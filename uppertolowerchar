@@ -1,0 +1,13 @@
+	//Convert upper to lower char and vice versa
+		
+		char ch;
+		System.out.println("Enter a char ");
+		Scanner sc = new  Scanner(System.in);
+		ch=sc.next().charAt(0);
+		
+		if(ch>='A' && ch<='Z') {
+			System.out.println(Character.toLowerCase(ch));	
+		}else {
+			System.out.println(Character.toUpperCase(ch));	
+		}
+		
