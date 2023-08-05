@@ -1,0 +1,9 @@
+	// Area of triangle
+		int l,b,h , area;
+		System.out.println("Enter No ");
+		Scanner sc = new Scanner(System.in);
+		l=sc.nextInt();
+		b=sc.nextInt();
+		h=sc.nextInt();
+		area= l*b*h;
+		System.out.println("Area of Triangle "+area);
